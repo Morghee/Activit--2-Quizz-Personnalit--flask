@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Quizz</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-white font-semibold text-3xl bg-blue-300  py-4"> Quel personnage de Sonic es-tu ? </h1>
+    </header>
+
+    <main >
+        <div class="flex justify-center py-8">
+        </div>
+       
+        <h1 class="text-center font-bold text-2xl py-4"> {{question}} </h1>
+
+        <div class="flex justify-center pt-6">
+            <ul>
+                <li> <a href="/reponse/0"> {{reponses[0]}} <button class="rounded-full bg-yellow-500 text-white px-2">⎆</button> </a></li>
+                <li> <a href="/reponse/1"> {{reponses[1]}} <button class="rounded-full bg-purple-500 text-white px-2">⎆</button> </a></li>
+                <li> <a href="/reponse/2"> {{reponses[2]}} <button class="rounded-full bg-red-500 text-white px-2">⎆</button></a></li>
+                <li> <a href="/reponse/3"> {{reponses[3]}} <button class="rounded-full bg-blue-500 text-white px-2">⎆</button> </a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="fixed bottom-0 w-full">
+        <p class="text-center text-white font-semibold text-2xl bg-blue-300  py-2"> Copyright @ SEGA </p>
+
+    </footer>
+</body>
+</html>
