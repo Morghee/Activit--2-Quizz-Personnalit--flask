@@ -39,6 +39,7 @@ questions = [
     "enonce": "Quelle est ta phrase préférée ?",
     "dr": " Je suis un géni de la mécanique !",
     "sonic": "Abandonner ? Désolé(e), ce mot ne fait pas partie de mon vocabulaire.",
-    "amy": "Derrière mon air fragile se cache un(e) pro des arts martiaux !"
+    "amy": "Derrière mon air fragile se cache un(e) pro des arts martiaux !",
+    "tails" : "Je fais toujours de mon mieux !"
   }
 ]
